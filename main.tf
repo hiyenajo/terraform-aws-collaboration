@@ -1,6 +1,6 @@
 terraform {
   // cloud {
-  //   organization = "<MY_ORG_NAME>"         # 생성한 ORG 이름 지정
+  //   organization = "hiyenajo"         # 생성한 ORG 이름 지정
   //   hostname     = "app.terraform.io"      # default
 
   //   workspaces {
@@ -19,7 +19,7 @@ provider "aws" {
   region = var.region
   default_tags {
     tags = {
-      Project = "<project name>"
+      Project = "T101-study-6week"
     }
   }
 }
